@@ -264,6 +264,11 @@ clip-path: circle(50%);
   transform: translate(-50%, -50%) scale(2);
   transition: all .3s; */
 }
+/* .contact .link:hover .svg-icon {
+  opacity: 1;
+  left: 0;
+  transform: translate(0, -50%) scale(1);
+} */
 
 /* Work page */
 .link {
