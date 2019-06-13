@@ -1,0 +1,172 @@
+/* Font */
+@font-face {
+  font-family: 'ZCOOL QingKe HuangYou';
+  font-style: normal;
+  font-weight: 400;
+  src: local('ZCOOL QingKe HuangYou Regular'), local('ZCOOLQingKeHuangYou-Regular'),
+    url('../fonts/zcool-qingke-huangyou-v4-latin-regular.woff2') format('woff2'),
+    url('../fonts/zcool-qingke-huangyou-v4-latin-regular.woff') format('woff');
+}
+/* End Font */
+
+/* Base styles */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.icon {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+button {
+  color: inherit;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  outline: 0;
+  opacity: .8;
+  -webkit-transition: opacity .3s;
+  transition: opacity .3s;
+}
+button:hover {
+  opacity: 1;
+}
+
+
+.hide {
+  display: none !important;
+}
+/* End base styles */
+
+/* Page background */
+.page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: url(../media/bg.jpg) center no-repeat;
+  background-size: cover;
+}
+/* End page background */
+
+/* Timer container */
+.timer-container {
+  width: 400px;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+/* End timer container */
+
+/* Time setting form */
+.set-time__form {
+  text-align: center;
+}
+.set-time__input {
+  color: inherit;
+  font-family: 'ZCOOL QingKe HuangYou';
+  max-width: 70px;
+  font-size: 24px;
+  text-align: right;
+  background: rgba(255, 255, 255, .15);
+  border: none;
+}
+.set-time__input:focus {
+  outline: none;
+}
+.set-time__btn {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  position: absolute;
+}
+/* End time setting form */
+
+/* Timer clock */
+.timer__clock {
+  font-size: 90px;
+  color: #fff;
+  font-family: 'ZCOOL QingKe HuangYou';
+  text-align: center;
+  margin: 30px auto;
+}
+/* End timer clock */
+
+/* Timer manage buttons */
+.timer__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.timer__buttons>* {
+  background: rgba(255, 255, 255, .05);
+}
+.timer__buttons>*:not(:last-child) {
+  margin-right: 10px;
+}
+/* End timer manage buttons */
+
+/* "Time over" popup */
+.popup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+}
+.popup-container {
+  width: 200px;
+  height: 150px;
+  color: #000;
+  font-size: 20px;
+  text-transform: uppercase;
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+}
+.popup__btn {
+  font-size: 20px;
+  background: -webkit-gradient(linear, left top, right bottom, from(#a8ff78),to(#78ffd6));
+  background: linear-gradient(to right bottom, #a8ff78,#78ffd6);
+}
+/* End "time over" popup */

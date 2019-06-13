@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Timer</title>
+</head>
+
+<body>
+  <main class="page">
+    <div class="timer-container">
+      <form class="set-time__form" action="#">
+        <label>Set timer at
+          <input class="set-time__input" type="number" name="time" id="time" min="0"> minutes
+        </label>
+        <button type="button" class="set-time__btn">Set</button>
+      </form>
+      <div class="timer__clock">
+        <span class="minutes">00</span>
+        <span> : </span>
+        <span class="seconds">00</span>
+      </div>
+      <div class="timer__buttons">
+        <button class="start" title="Start">
+          <svg class="icon">
+            <use xlink:href="#icon-play"></use>
+          </svg>
+        </button>
+        <button class="pause hide" title="Pause">
+          <svg class="icon">
+            <use xlink:href="#icon-pause"></use>
+          </svg>
+        </button>
+        <button class="reset" title="Reset">
+          <svg class="icon">
+            <use xlink:href="#icon-stop"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="popup hide">
+      <div class="popup-container">
+        <p>Time is out!</p>
+        <button class="popup__btn" title="OK">OK</button>
+      </div>
+    </div>
+  </main>
+  <audio id="audio" src="media/alarm.mp3"></audio>
+  <script src="js/hacktimer.min.js"></script>
+  <script src="js/timer.js"></script>
+  <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+      <symbol id="icon-play" viewBox="0 0 32 32">
+        <path d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM16 29c-7.18 0-13-5.82-13-13s5.82-13 13-13 13 5.82 13 13-5.82 13-13 13zM12 9l12 7-12 7z"></path>
+      </symbol>
+      <symbol id="icon-pause" viewBox="0 0 32 32">
+        <path d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM16 29c-7.18 0-13-5.82-13-13s5.82-13 13-13 13 5.82 13 13-5.82 13-13 13zM10 10h4v12h-4zM18 10h4v12h-4z"></path>
+      </symbol>
+      <symbol id="icon-stop" viewBox="0 0 32 32">
+        <path d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM16 29c-7.18 0-13-5.82-13-13s5.82-13 13-13 13 5.82 13 13-5.82 13-13 13zM10 10h12v12h-12z"></path>
+      </symbol>
+    </defs>
+  </svg>
+
+</body>
+
+</html>
