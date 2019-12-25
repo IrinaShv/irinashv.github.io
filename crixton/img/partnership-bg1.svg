@@ -1,1 +1,23 @@
-<svg width="687" height="600" viewBox="0 0 687 600" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="33.192%" y1="32.988%" x2="75.737%" y2="68.414%" id="a"><stop stop-color="#03010F" offset="0%"/><stop stop-color="#403B3B" offset="100%"/></linearGradient></defs><path d="M13.797 538.69c41.007-131.582 136.099-175.265 258.055-199.37 104.441-20.702 223.38-18.69 309.388-79.853C667.25 198.304 715.564 112.8 819.62 94.08c139.443-25.228 225.777 70.449 243.824 179.228 25.03 150.836-85.801 255.149-215.982 275.704-108.022 17.006-222.788 32.681-300.72 122.502-71.777 82.812-96.6 233.854-216.9 265.205C193.388 972.239-62.063 782.097 13.797 538.69z" transform="translate(-380 -314)" fill="url(#a)" fill-rule="nonzero"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="687px" height="600px" viewBox="0 0 687 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>Shape_5@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="33.1920168%" y1="32.9880264%" x2="75.7368415%" y2="68.4144955%" id="linearGradient-1">
+            <stop stop-color="#03010F" offset="0%"></stop>
+            <stop stop-color="#403B3B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home_Page" transform="translate(0.000000, -4043.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="CONCLUSION" transform="translate(0.000000, 4043.000000)">
+                <g id="BKG">
+                    <g id="BKG7" transform="translate(-380.000000, -314.000000)">
+                        <path d="M13.7968951,538.690053 C54.8040706,407.108162 149.895746,363.424985 271.852151,339.320862 C376.293226,318.617935 495.231787,320.629076 581.240344,259.466714 C667.2489,198.304352 715.563992,112.801262 819.62044,94.0799002 C959.062589,68.8519044 1045.3966,164.529004 1063.44449,273.3081 C1088.47484,424.143713 977.643041,528.456891 847.461531,549.011941 C739.440465,566.017917 624.673629,581.69299 546.742244,671.514119 C474.964893,754.325829 450.141646,905.368471 329.842097,936.718619 C193.388205,972.238927 -62.063421,782.097327 13.7968951,538.690053 Z" id="Shape_5"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

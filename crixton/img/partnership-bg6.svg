@@ -1,1 +1,25 @@
-<svg width="353" height="422" viewBox="0 0 353 422" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="66.687%" y1="77.954%" x2="45.831%" y2="46.201%" id="a"><stop stop-color="#FC9512" offset="0%"/><stop stop-color="#FD5F35" offset="35%"/><stop stop-color="#FE225C" offset="79%"/><stop stop-color="#FF0A6C" offset="100%"/></linearGradient></defs><path d="M2081.052 551.632c9.845-48.632 51.975-71.779 57.917-122.926 12.92-111.62-98.924-171.677-150.426-86.371-26.194 43.363-36.07 97.44-67.378 137.074-31.753 40.196-79.826 45.85-119.029 74.828-72.197 53.279-93.1 151.726-180.67 191.834-201.929 92.557-193.68 211.96-45.856 217.822 123.7 4.913 157.197-160.459 315.99-158.09 258.338 3.847 168.047-148.353 189.452-254.171z" transform="translate(-1467 -542)" fill="url(#a)" fill-rule="nonzero"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="353px" height="422px" viewBox="0 0 353 422" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>Shape_10@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="66.6872877%" y1="77.9536177%" x2="45.830593%" y2="46.2008054%" id="linearGradient-1">
+            <stop stop-color="#FC9512" offset="0%"></stop>
+            <stop stop-color="#FD5F35" offset="35%"></stop>
+            <stop stop-color="#FE225C" offset="79%"></stop>
+            <stop stop-color="#FF0A6C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home_Page" transform="translate(-1087.000000, -4271.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="CONCLUSION" transform="translate(0.000000, 4043.000000)">
+                <g id="BKG">
+                    <g id="BKG7" transform="translate(-380.000000, -314.000000)">
+                        <path d="M2081.05164,551.631979 C2090.89675,503.00014 2133.02672,479.853398 2138.96927,428.705609 C2151.88913,317.086215 2040.04512,257.029003 1988.54307,342.334516 C1962.34858,385.697659 1952.4739,439.77579 1921.16467,479.409407 C1889.41198,519.605412 1841.33945,525.2589 1802.1364,554.236728 C1729.93892,607.515675 1709.03654,705.963328 1621.46532,746.070536 C1419.53707,838.627906 1427.78568,958.031946 1575.61016,963.89263 C1699.30969,968.806133 1732.80672,803.434202 1891.59978,805.802155 C2149.93784,809.650079 2059.64665,657.449887 2081.05164,551.631979 Z" id="Shape_10"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
